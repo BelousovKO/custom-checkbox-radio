@@ -1,0 +1,21 @@
+$color: red;
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  color: black;
+  &_div {
+    color: $color;
+  }
+}
+
+.wrapper {
+  margin: 20px;
+  display: flex;
+
+  .checkbox-label {
+    margin-left: 5px;
+  }
+}

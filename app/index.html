@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>test</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/custom-checkbox.css">
+  <link rel="stylesheet" href="css/custom-radio.css">
+  <link rel="stylesheet" href="css/checkbox-switch.css">
+  <link rel="stylesheet" href="css/checkbox-switch-iOS.css">
+  <link rel="stylesheet" href="css/checkbox-google-android.css">
+  <link rel="stylesheet" href="css/checkbox-yandex.css">
+  <link rel="stylesheet" href="css/custom-switch.css">
+  <link rel="stylesheet" href="css/custom-switch2.css">
+  <script type="module" src="js/script.js"></script>
+</head>
+<body>
+<div class="main">hello!!!
+  <div class="main_div"> world</div>
+  <div class="clock"></div>
+</div>
+
+<div class="wrapper">
+  <input type="checkbox" class="custom-checkbox" id="customCheckbox1" value="yes">
+  <label for="customCheckbox1">checkbox</label>
+  <input type="checkbox" class="custom-checkbox" id="customCheckbox2" value="yes" checked>
+  <label for="customCheckbox2">checked checkbox</label>
+  <input type="checkbox" class="custom-checkbox" id="customCheckbox3" value="no" disabled>
+  <label for="customCheckbox3">disable checkbox</label>
+</div>
+
+<form class="wrapper">
+  <label class="custom-radio">
+    <input type="radio" id="radio-1" name="radio" value="radio-1" checked>
+    <span>radio-1</span>
+  </label>
+  <label class="custom-radio">
+    <input class="custom-radio" type="radio" id="radio-2" name="radio" value="radio-2">
+    <span>radio-2</span>
+  </label>
+  <label class="custom-radio">
+    <input class="custom-radio" type="radio" id="radio-3" name="radio" value="radio-3" disabled>
+    <span>radio-3 disable</span>
+  </label>
+  <label class="custom-radio">
+    <input class="custom-radio" type="radio" id="radio-4" name="radio" value="radio-4">
+    <span>radio-4</span>
+  </label>
+</form>
+
+<div class="wrapper">
+  <label class="checkbox-green">
+    <input type="checkbox">
+    <span class="checkbox-green-switch" data-label-on="On" data-label-off="Off"></span>
+    <span class="checkbox-label">№1</span>
+  </label>
+  <label class="checkbox-green">
+    <input type="checkbox" checked>
+    <span class="checkbox-green-switch" data-label-on="On" data-label-off="Off"></span>
+    <span class="checkbox-label">№2</span>
+  </label>
+  <label class="checkbox-green">
+    <input type="checkbox" disabled>
+    <span class="checkbox-green-switch" data-label-on="On" data-label-off="Off"></span>
+    <span class="checkbox-label">№3</span>
+  </label>
+  <label class="checkbox-green">
+    <input type="checkbox" checked disabled>
+    <span class="checkbox-green-switch" data-label-on="On" data-label-off="Off"></span>
+    <span class="checkbox-label">№4</span>
+  </label>
+</div>
+
+<div class="wrapper">
+  <label class="checkbox-ios">
+    <input type="checkbox">
+    <span class="checkbox-ios-switch"></span>
+    <span class="checkbox-label">№1</span>
+  </label>
+  <label class="checkbox-ios">
+    <input type="checkbox" checked>
+    <span class="checkbox-ios-switch"></span>
+    <span class="checkbox-label">№2</span>
+  </label>
+  <label class="checkbox-ios">
+    <input type="checkbox" disabled>
+    <span class="checkbox-ios-switch"></span>
+    <span class="checkbox-label">№3</span>
+  </label>
+  <label class="checkbox-ios">
+    <input type="checkbox" checked disabled>
+    <span class="checkbox-ios-switch"></span>
+    <span class="checkbox-label">№4</span>
+  </label>
+</div>
+
+<div class="wrapper">
+  <label class="checkbox-google">
+    <input type="checkbox">
+    <span class="checkbox-google-switch"></span>
+    <span class="checkbox-label">№1</span>
+  </label>
+  <label class="checkbox-google">
+    <input type="checkbox" checked>
+    <span class="checkbox-google-switch"></span>
+    <span class="checkbox-label">№2</span>
+  </label>
+  <label class="checkbox-google">
+    <input type="checkbox" disabled>
+    <span class="checkbox-google-switch"></span>
+    <span class="checkbox-label">№3</span>
+  </label>
+  <label class="checkbox-google">
+    <input type="checkbox" checked disabled>
+    <span class="checkbox-google-switch"></span>
+    <span class="checkbox-label">№4</span>
+  </label>
+</div>
+
+<div class="wrapper">
+  <label class="checkbox-ya">
+    <input type="checkbox">
+    <span class="checkbox-ya-switch">
+		  <span class="checkbox-ya-feature" data-label-on="Вкл" data-label-off="Откл"></span>
+	  </span>
+    <span class="checkbox-label">№1</span>
+  </label>
+  <label class="checkbox-ya">
+    <input type="checkbox" checked>
+    <span class="checkbox-ya-switch">
+		  <span class="checkbox-ya-feature" data-label-on="Вкл" data-label-off="Откл"></span>
+	  </span>
+    <span class="checkbox-label">№2</span>
+  </label>
+  <label class="checkbox-ya">
+    <input type="checkbox" disabled>
+    <span class="checkbox-ya-switch">
+		  <span class="checkbox-ya-feature" data-label-on="Вкл" data-label-off="Откл"></span>
+	  </span>
+    <span class="checkbox-label">№3</span>
+  </label>
+  <label class="checkbox-ya">
+    <input type="checkbox" checked disabled>
+    <span class="checkbox-ya-switch">
+		  <span class="checkbox-ya-feature" data-label-on="Вкл" data-label-off="Откл"></span>
+	  </span>
+    <span class="checkbox-label">№4</span>
+  </label>
+</div>
+
+<div class="wrapper">
+  <div class="switch">
+    <input type="checkbox" id="customCheckbox4">
+    <label for="customCheckbox4"></label>
+  </div>
+</div>
+
+<div class="wrapper">
+  <div class="switch2">
+    <input type="checkbox" id="customCheckbox5">
+    <label for="customCheckbox5"><i></i></label>
+  </div>
+</div>
+
+</body>
+</html>
